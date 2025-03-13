@@ -71,14 +71,16 @@ Ensure you have the following installed:
    ```sh
    php artisan serve
    ```
-   - The application will be available at **http://127.0.0.1:8000**
+   - The application will be available at **http://127.0.0.1:8000/login**
 
 ## Usage
 ### Admin
+- Head to `http://127.0.0.1:8000/login`
 - Login as `admin@test.com` (password: `12345678`).
 - Manage users and stamps via the dashboard.
 
 ### Customer
+- Head to `http://127.0.0.1:8000/register`
 - Register as a new user.
 - View available stamps and collect them.
 
